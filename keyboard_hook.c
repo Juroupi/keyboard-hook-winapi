@@ -1,5 +1,7 @@
 #include "keyboard_hook.h"
 
+#include <windows.h>
+
 
 static KeyboardHookCallback userCallback = NULL;
 

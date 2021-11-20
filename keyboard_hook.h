@@ -1,8 +1,6 @@
 #ifndef _KEYBOARD_HOOK_H_
 #define _KEYBOARD_HOOK_H_
 
-#include <windows.h>
-
 typedef enum _HookReturn {
     HOOK_CONTINUE, /* continue hook */
     HOOK_STOP, /* stop hook */
